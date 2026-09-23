@@ -14,7 +14,9 @@ figure = px.pie(données, values='qte', names='produit', title='les ventes par p
 figure.write_html('ventes-par-produit.html')
 print('ventes-par-produit.html généré avec succès !')
 
-figure = px.pie(données, values[0]=='qte',values[1]=='prix', names='produit', title='le chiffre d affaires par produit')
+données['CA']= données['qte']*données['prix']
+
+figure = px.pie(données, values='CA', names='produit', title='le chiffre d affaires par produit')
 figure.write_html('CA-par-produit.html')
 print('CA-par-produit.html généré avec succès !')
 

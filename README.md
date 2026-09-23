@@ -57,3 +57,4 @@ Prenez le temps de lire, d'analyser voir même de bidouiller le fichier "app.py"
 # Publier vos modifications sur votre propre dépôt GitHub
 Une fois que vous avez terminé de travailler sur les consignes du projet et que vous souhaitez publier vos modifications dans votre dépôt, vous devrez suivre les étapes décrites dans la section « Validation (commit) de vos modifications » de [cette ressource](https://docs.github.com/fr/codespaces/developing-in-a-codespace/using-source-control-in-your-codespace#validation-commit-de-vos-modifications
 ).
+.

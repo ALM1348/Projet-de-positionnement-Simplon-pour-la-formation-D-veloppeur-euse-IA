@@ -11,5 +11,5 @@ figure.write_html('ventes-par-region.html')
 print('ventes-par-région.html généré avec succès !')
 '''
 figure = px.pie(données, values='qte', names='produit', title='les ventes par produit,')
-figure.write_html('ventes-par-region.html')
-print('ventes-par-région.html généré avec succès !')
+figure.write_html('ventes-par-produit.html')
+print('ventes-par-produit.html généré avec succès !')
